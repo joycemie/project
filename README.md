@@ -9,4 +9,5 @@ and so on.
 What to compute?
 Your code should first find and print times TA,TB,TC and TD when water reaches the levels A,B,C and D (top of the tank).
 After this, calculate and plot dependency t(h) where h is the height of water level 0 ≤ h ≤ 2r1 +l1 +l2 +r2, and t(h) is time when water reaches level h. For this, Set H = 2r1 + l1 + l2 + r2 , divide interval [0, H ] into N equal subintervals and compute t(hi ), where hi =iNH,i=0,1,...,N, and t(hi) is the earliest time when the water level reaches the height hi.
-Your code must have a function named simulate that takes tank parameters r1,l1,l2,r2, integer value N and tolerance as arguments and produces necessary for plotting data along with the plot.(including values r1 = 2, l1 = 3, l2 = 3, r2= 4, N = 100, tolerance 10^(-4) ).
+Your code must have a function named simulate that takes tank parameters r1,l1,l2,r2, integer value N and tolerance as arguments and produces necessary for plotting data along with the plot.(including values r1 = 2, l1 = 3, l2 = 3, r2= 4, N = 100, tolerance 10^(-4) ).  
+<img width="336" alt="image" src="https://github.com/joycemie/project/assets/134363926/e390afba-8a3a-4f4d-8f37-9b951eceb5a5">
